@@ -1,0 +1,42 @@
+h1{
+  color:#000000;
+   border:20px solid #FF0000;
+   border-radius: 10px;
+   background-color: grey;
+   padding-left: 20px;
+   text-align:center;
+ }
+
+  body{
+    font-family:"Sharkshock", cursive;
+    background-image: url(fond.jpg);
+  background-size: cover;
+  }
+
+h2{
+  color:#FF0000;
+}
+
+.size{
+  font-size:40px;
+}
+
+.left{
+float:left;
+width:40%;
+padding-left:300px;
+}
+
+.right{
+  margin-left: 50%;
+  padding-top: 5px;
+}
+
+.container {
+  width: 100%;
+}
+
+img{
+  height:200px;
+  width:300px;
+}
