@@ -12,13 +12,21 @@ h1{
     background-image: url(fond.jpg);
   background-size: cover;
   }
+header p{
+  color:white;
+  text-align:center;
+  font-size:1.5em;
+}
 
 h2{
   color:#FF0000;
+
 }
 
 .size{
-  font-size:40px;
+  font-size:1em;
+  padding-left: 0;
+  border: 10px solid #FF0000;
 }
 
 .left{
@@ -39,4 +47,33 @@ padding-left:300px;
 img{
   height:200px;
   width:300px;
+}
+
+@media screen and (max-width: 360px) {
+.left{
+  float: none;
+  padding-left: 1%;
+}
+
+.right{
+  margin-left: 1%;
+}
+
+h2{
+  text-align:center;
+}
+}
+@media screen and (min-width:361px) and (max-width: 980px) {
+.left{
+  padding-left: 10%;
+}
+
+#responsive {
+  padding-bottom: 1em;
+}
+
+ #last {
+  margin-bottom: 5em;
+}
+
 }
